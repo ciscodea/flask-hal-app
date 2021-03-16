@@ -5,5 +5,5 @@ from .config import Config
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-    app.run(debug=True)
+    app.run(debug=False)
     return app
