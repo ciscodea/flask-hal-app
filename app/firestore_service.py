@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 
-project_id = 'hal-project-307805'
+project_id = 'hal-project-production'
 cred = credentials.ApplicationDefault()
 firebase_admin.initialize_app(cred, {
     'projectId': project_id,
