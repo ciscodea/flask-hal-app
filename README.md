@@ -7,11 +7,12 @@
 
 ### activate bot 📋
 
-_git clone https://github.com/ciscodea/flask-hal-app.git_
+``
+git clone https://github.com/ciscodea/flask-hal-app.git_
 
-_create a virtual env_
+create a virtual env
 
-_pip install -r requirements.txt
+pip install -r requirements.txt
 
-_python3 quiz_telegram_bot.py_ 
-
+python3 quiz_telegram_bot.py
+``
