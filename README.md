@@ -7,12 +7,24 @@
 
 ### activate bot 📋
 
-``
-git clone https://github.com/ciscodea/flask-hal-app.git_
+Comandos para activar el bot de telegram:
+```
+git clone https://github.com/ciscodea/flask-hal-app.git
 
-create a virtual env
+python3 -m venv env
 
 pip install -r requirements.txt
 
 python3 quiz_telegram_bot.py
-``
+```
+
+### Busca el bot de telegram en la aplicacion de telegram como:
+ quiz_hal_bot
+ 
+```
+ escribe /start para iniciar el bot
+ ahora escribe /question para iniciar las preguntas
+ 
+```
+ 
+ 
